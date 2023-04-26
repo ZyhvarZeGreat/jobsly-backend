@@ -7,23 +7,20 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "build:win": "cross-env NODE_ENV=production npm run build"
+    "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.7.0",
-    "@strapi/plugin-i18n": "4.7.0",
-    "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/strapi": "4.7.0",
-    "better-sqlite3": "7.4.6",
-    "cross-env": "^7.0.3"
-    
+    "@strapi/strapi": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
+    "better-sqlite3": "8.0.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "35e609e7-ff22-4844-9f6e-a84d62642ad6"
+    "uuid": "93b6631a-3d3d-43da-80c1-ee3b4eba2beb"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
