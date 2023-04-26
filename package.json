@@ -11,14 +11,13 @@
     "build:win": "cross-env NODE_ENV=production npm run build"
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.6.0",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/provider-upload-cloudinary": "^4.8.2",
-    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-documentation": "^4.7.0",
+    "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/strapi": "4.7.0",
     "better-sqlite3": "7.4.6",
-    "cross-env": "^7.0.3",
-    "strapi-blurhash": "^1.0.2"
+    "cross-env": "^7.0.3"
+    
   },
   "author": {
     "name": "A Strapi developer"
